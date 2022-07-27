@@ -24,6 +24,18 @@
     enable_tabline_filetype_icon = true
     enable_statusline_mode = false
 
+    custom_color_palette = [
+        ["#262626", "#A4E400", 235, 148],  # window id
+        ["#BCBCBC", "#5F5F5F", 250, 236],  # statusline sections
+        ["#A4E400", "#303030", 148, 236],  # statusline sections
+        ["#262626", 235],                  # empty sections
+        ["#262626", "#E7DC6D", 235, 228],  # window id in insert mode
+        ["#262626", "#AC7CFF", 235, 141],  # window id in visual mode
+        ["#262626", "#FC1A70", 235, 197],  # window id in select mode
+        ["#262626", "#E7DC6D", 235, 228],  # window id in iedit-insert mode
+        ["#262626", "#A4E400", 235, 148],  # window id in iedit-normal mode
+    ]
+
 # Enable autocomplete layer
 [[layers]]
 name = 'autocomplete'
