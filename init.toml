@@ -36,6 +36,8 @@
         ["#262626", "#A4E400", 235, 148],  # window id in iedit-normal mode
     ]
 
+    bootstrap_before = 'myspacevim#before'
+
 # Enable autocomplete layer
 [[layers]]
 name = 'autocomplete'
