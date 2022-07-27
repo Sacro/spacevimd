@@ -37,6 +37,7 @@
     ]
 
     bootstrap_before = 'myspacevim#before'
+    boostrap_after = 'myspacevim#after'
 
 # Enable autocomplete layer
 [[layers]]
@@ -45,9 +46,61 @@ auto_completion_return_key_behavior = 'complete'
 auto_completion_tab_key_behavior = 'smart'
 
 [[layers]]
+name = 'checkers'
+lint_on_the_fly = true
+
+[[layers]]
+name = 'format'
+
+[[layers]]
+name = 'git'
+
+[[layers]]
+name = 'github'
+
+[[layers]]
+name = 'lang#javascript'
+
+[[layers]]
+name = 'lang#go'
+enabled_linters = ['golangci_lint']
+format_on_save = true
+
+[[layers]]
+name = 'lang#sh'
+
+[[layers]]
+name = 'lang#typescript'
+
+[[layers]]
+name = 'lang#vim'
+
+[[layers]]
+name = 'lsp'
+enabled_clients = ['gopls']
+
+[[layers]]
 name = 'shell'
 default_position = 'top'
 default_height = 30
+
+[[layers]]
+name = 'ssh'
+
+[[layers]]
+name = 'sudo'
+
+[[layers]]
+name = 'test'
+
+[[layers]]
+name = 'tmux'
+
+[[layers]]
+name = 'tools'
+
+[[layers]]
+name = 'VersionControl'
 
 [[custom_plugins]]
 repo = 'patstockwell/vim-monokai-tasty'
