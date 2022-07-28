@@ -53,6 +53,12 @@ lint_on_the_fly = true
 name = 'debug'
 
 [[layers]]
+name = 'edit'
+
+[[layers]]
+name = 'foldsearch'
+
+[[layers]]
 name = 'format'
 
 [[layers]]
@@ -62,7 +68,10 @@ name = 'git'
 name = 'github'
 
 [[layers]]
-name = 'lang#javascript'
+name = 'gtags'
+
+[[layers]]
+name = 'lang#dockerfile'
 
 [[layers]]
 name = 'lang#go'
@@ -70,7 +79,25 @@ enabled_linters = ['golangci_lint']
 format_on_save = true
 
 [[layers]]
+name = 'lang#html'
+
+[[layers]]
+name = 'lang#javascript'
+
+[[layers]]
+name = 'lang#markdown'
+
+[[layers]]
+name = 'lang#python'
+
+[[layers]]
+name = 'lang#rust'
+
+[[layers]]
 name = 'lang#sh'
+
+[[layers]]
+name = 'lang#toml'
 
 [[layers]]
 name = 'lang#typescript'
@@ -79,8 +106,42 @@ name = 'lang#typescript'
 name = 'lang#vim'
 
 [[layers]]
+name = 'lang#vue'
+
+[[layers]]
+name = 'lang#WebAssembly'
+
+[[layers]]
+name = 'lang#xml'
+
+[[layers]]
 name = 'lsp'
-enabled_clients = ['gopls']
+enabled_clients = [
+  'bashls',
+  'dockerls',
+  'emmet_ls',
+  'eslint',
+  'golangci_lint_ls',
+  'gopls',
+  'graphql',
+  'html',
+  'jedi_language_server',
+  'jsonls',
+  'prismals',
+  'pylsp',
+  'pyre',
+  'pyright',
+  'sqlls',
+  'sqls',
+  'tailwindcss',
+  'terraform_lsp',
+  'terraformls',
+  'tflint',
+  'tsserver',
+  'vimls',
+  'vuels',
+  'yamlls'
+]
 
 [[layers]]
 name = 'shell'
@@ -101,6 +162,9 @@ name = 'tmux'
 
 [[layers]]
 name = 'tools'
+
+[[layers]]
+name = 'treesitter'
 
 [[layers]]
 name = 'VersionControl'
