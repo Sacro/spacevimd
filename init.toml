@@ -50,6 +50,9 @@ name = 'checkers'
 lint_on_the_fly = true
 
 [[layers]]
+name = 'debug'
+
+[[layers]]
 name = 'format'
 
 [[layers]]
