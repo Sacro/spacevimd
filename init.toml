@@ -120,7 +120,6 @@ enabled_clients = [
   'bashls',
   'dockerls',
   'emmet_ls',
-  'eslint',
   'golangci_lint_ls',
   'gopls',
   'graphql',
@@ -168,6 +167,10 @@ name = 'treesitter'
 
 [[layers]]
 name = 'VersionControl'
+
+[[custom_plugins]]
+repo = 'm-pilia/vim-pkgbuild'
+merged = false
 
 [[custom_plugins]]
 repo = 'patstockwell/vim-monokai-tasty'
