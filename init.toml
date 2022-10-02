@@ -13,6 +13,7 @@
     # layer
     colorscheme = 'vim-monokai-tasty'
     colorscheme_bg = 'dark'
+    filemanager = 'defx'
     # Disable guicolors in basic mode, many terminal do not support 24bit
     # true colors
     enable_guicolors = true
@@ -48,6 +49,9 @@ auto_completion_tab_key_behavior = 'smart'
 [[layers]]
 name = 'checkers'
 lint_on_the_fly = true
+
+[[layers]]
+name = 'denite'
 
 [[layers]]
 name = 'debug'
