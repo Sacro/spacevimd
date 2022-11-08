@@ -11,7 +11,7 @@
     # set spacevim theme. by default colorscheme layer is not loaded,
     # if you want to use more colorscheme, please load the colorscheme
     # layer
-    colorscheme = 'vim-monokai-tasty'
+    colorscheme = 'base16-monokai'
     colorscheme_bg = 'dark'
     filemanager = 'defx'
     # Disable guicolors in basic mode, many terminal do not support 24bit
@@ -26,16 +26,34 @@
     enable_statusline_mode = false
 
     custom_color_palette = [
-        ["#262626", "#A4E400", "235", "148"],  # window id
-        ["#BCBCBC", "#5F5F5F", "250", "236"],  # statusline sections
-        ["#A4E400", "#303030", "148", "236"],  # statusline sections
-        ["#262626", "235"],                    # empty sections
-        ["#262626", "#E7DC6D", "235", "228"],  # window id in insert mode
-        ["#262626", "#AC7CFF", "235", "141"],  # window id in visual mode
-        ["#262626", "#FC1A70", "235", "197"],  # window id in select mode
-        ["#262626", "#E7DC6D", "235", "228"],  # window id in iedit-insert mode
-        ["#262626", "#A4E400", "235", "148"],  # window id in iedit-normal mode
+        ["#272822", "#a6e22e", "235", "148"],  # window id
+        ["#a59f85", "#383830", "250", "236"],  # statusline sections
+        ["#a6e22e", "#49483e", "148", "236"],  # statusline sections
+        ["#272822", "235"],                    # empty sections
+        ["#272822", "#f4bf75", "235", "228"],  # window id in insert mode
+        ["#272822", "#ae81ff", "235", "141"],  # window id in visual mode
+        ["#272822", "#f92672", "235", "197"],  # window id in select mode
+        ["#272822", "#f4bf75", "235", "228"],  # window id in iedit-insert mode
+        ["#272822", "#a6e22e", "235", "148"],  # window id in iedit-normal mode
     ]
+
+    # color00='#272822'
+    # color01='#383830'
+    # color02='#49483e'
+    # color03='#75715e'
+    # color04='#a59f85'
+    # color05='#f8f8f2'
+    # color06='#f5f4f1'
+    # color07='#f9f8f5'
+    # color08='#f92672'
+    # color09='#fd971f'
+    # color0A='#f4bf75'
+    # color0B='#a6e22e'
+    # color0C='#a1efe4'
+    # color0D='#66d9ef'
+    # color0E='#ae81ff'
+    # color0F='#cc6633'
+
 
     bootstrap_before = 'myspacevim#before'
     boostrap_after = 'myspacevim#after'
@@ -177,5 +195,5 @@ repo = 'm-pilia/vim-pkgbuild'
 merged = false
 
 [[custom_plugins]]
-repo = 'patstockwell/vim-monokai-tasty'
+repo = 'RRethy/nvim-base16'
 merged = false
