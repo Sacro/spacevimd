@@ -93,6 +93,10 @@ name = 'github'
 name = 'gtags'
 
 [[layers]]
+name = 'lang#csharp'
+highlight_types = 0
+
+[[layers]]
 name = 'lang#dockerfile'
 
 [[layers]]
@@ -148,6 +152,7 @@ enabled_clients = [
   'html',
   'jedi_language_server',
   'jsonls',
+  'omnisharp',
   'prismals',
   'pylsp',
   'pyre',
@@ -163,6 +168,8 @@ enabled_clients = [
   'vuels',
   'yamlls'
 ]
+  [layers.override_client_cmds]
+    omnisharp = ["/usr/bin/omnisharp"]
 
 [[layers]]
 name = 'shell'
@@ -192,6 +199,10 @@ name = 'VersionControl'
 
 [[custom_plugins]]
 repo = 'm-pilia/vim-pkgbuild'
+merged = false
+
+[[custom_plugins]]
+repo = 'pantharshit00/vim-prisma'
 merged = false
 
 [[custom_plugins]]
